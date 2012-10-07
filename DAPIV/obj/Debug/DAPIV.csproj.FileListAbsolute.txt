@@ -1,0 +1,5 @@
+D:\DAPIV\DAPIV\bin\DAPIV.dll
+D:\DAPIV\DAPIV\bin\DAPIV.pdb
+D:\DAPIV\DAPIV\obj\Debug\ResolveAssemblyReference.cache
+D:\DAPIV\DAPIV\obj\Debug\DAPIV.dll
+D:\DAPIV\DAPIV\obj\Debug\DAPIV.pdb

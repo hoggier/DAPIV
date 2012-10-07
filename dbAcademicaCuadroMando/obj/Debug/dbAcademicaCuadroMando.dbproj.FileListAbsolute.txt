@@ -1,0 +1,6 @@
+D:\DAPIV\dbAcademicaCuadroMando\sql\debug\dbAcademicaCuadroMando_Database.sqlsettings
+D:\DAPIV\dbAcademicaCuadroMando\sql\debug\dbAcademicaCuadroMando_Database.sqldeployment
+D:\DAPIV\dbAcademicaCuadroMando\sql\debug\dbAcademicaCuadroMando_Database.sqlcmdvars
+D:\DAPIV\dbAcademicaCuadroMando\sql\debug\dbAcademicaCuadroMando.deploymanifest
+D:\DAPIV\dbAcademicaCuadroMando\sql\debug\dbAcademicaCuadroMando.dbschema
+D:\DAPIV\dbAcademicaCuadroMando\obj\Debug\dbAcademicaCuadroMando.dbschema

@@ -1,0 +1,25 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4abc9b8c-4dab-41a3-b19f-2be80b64ba82" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Cubo_Alumno</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact Alumnos</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="25fe9743-f3c2-4691-87df-121175f6ce63">
+          <ID>Fact Alumnos</ID>
+          <Name>Fact Alumnos</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3c8aa96f-8b51-4c76-b3d1-df70e72d73c6">
+            <DataSourceViewID>Db Academica Cuadro Mando</DataSourceViewID>
+            <TableID>fact_alumnos</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
