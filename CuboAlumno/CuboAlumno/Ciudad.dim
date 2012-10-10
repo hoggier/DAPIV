@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b79ee314-fc23-4d07-bd01-4fe23486a2a8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fa5be487-8e90-40a8-82bc-cdee70ebbe0a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Ciudad</ID>
   <Name>Ciudad</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -128,144 +128,150 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3b6b8fc0-4583-4ccd-8723-da9bd4b749a8">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1551733f-ad23-4a36-a942-6f5e06193683">
     <DataSourceViewID>Db Academica Cuadro Mando</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="ed6ce536-c7a8-40c5-8dd0-1dc9a1c82157">
+  <ErrorConfiguration dwd:design-time-name="b26e5458-0d69-4c9a-86df-10910993dfec">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="5c6f9ed0-81be-4114-8f35-fda708ef4cbb">
+    <Attribute dwd:design-time-name="dd68ce67-f0ab-4675-ae5d-30c649a601a4">
       <ID>Idciudad</ID>
       <Name>Idciudad</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="13001ac8-4d05-45bd-8b18-530f633d7e8c">
-          <DataType>BigInt</DataType>
+        <KeyColumn dwd:design-time-name="4b84f317-b8b7-45b6-987a-6fea44b93aa9">
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="66d6c639-8de1-4cce-88dc-45bd6c43382d">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a3c246db-7a23-423c-8f9d-55e3e9837382">
             <TableID>dbo_ciudad</TableID>
             <ColumnID>idciudad</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="7b3ec0fe-2ae5-4772-b802-846254a5e3dc">
+        <AttributeRelationship dwd:design-time-name="a912e3da-0bbc-4ad7-9f5d-64a47d3da802">
           <AttributeID>Idprovincia</AttributeID>
           <Name>Idprovincia</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="2f6f54fa-68f7-4947-8c13-250ae5b96dcf">
+        <AttributeRelationship dwd:design-time-name="dd8e6882-8d65-4e0f-84e0-99a37ddaaef9">
           <AttributeID>Nombre Ciudad</AttributeID>
           <Name>Nombre Ciudad</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5c54174c-cddb-4473-a67c-aa4306f25a6e">
+        <AttributeRelationship dwd:design-time-name="cfffff39-01c9-418a-8e59-a3d7c43a653a">
           <AttributeID>Nombre Provincia</AttributeID>
           <Name>Nombre Provincia</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5a202725-987e-43b2-8a03-88d9c2f15c4c">
+        <AttributeRelationship dwd:design-time-name="bf58303c-cf5d-4157-ad9b-98ad886b9473">
           <AttributeID>Nombre Dpto</AttributeID>
           <Name>Nombre Dpto</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="f519e063-0cd6-4465-9a15-09a23b92c49f">
+    <Attribute dwd:design-time-name="951fd37e-ec58-456b-b0e6-a457f14c08b0">
       <ID>Idprovincia</ID>
       <Name>Idprovincia</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="dcb7c1ad-d793-4eaa-bf92-ac6ec5356980">
+        <KeyColumn dwd:design-time-name="acd80d84-d05b-4de8-a6ef-1ca1e84cc5b4">
           <DataType>BigInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1deaeed4-852e-419f-a408-d40f985a9c48">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d42f548-b5ed-4d0e-acb4-75da830cf617">
             <TableID>dbo_provincia</TableID>
             <ColumnID>idprovincia</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="de376cc8-fc81-4506-9560-9b08f40c035a">
+        <AttributeRelationship dwd:design-time-name="d82b861e-1325-4da4-8b30-62d28b878206">
           <AttributeID>Iddpto</AttributeID>
           <Name>Iddpto</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d8c5b0f1-3d24-4de3-a91b-8ff23b548289">
+    <Attribute dwd:design-time-name="46bbe5ae-114b-4577-b2a0-88316a50cdd4">
       <ID>Iddpto</ID>
       <Name>Iddpto</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a9686f4f-f2d5-43c1-a9fd-1b5b5cefe121">
+        <KeyColumn dwd:design-time-name="9c4e9ec6-3016-49fc-9a06-c34bd844d541">
           <DataType>BigInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a7a0d13e-470d-48ab-9cfc-2ae76118087b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="38a551fa-d446-4fad-9f0c-3420f2053fef">
             <TableID>dbo_dpto</TableID>
             <ColumnID>iddpto</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="ac92f04f-0331-410c-ac4d-9b985b81abfa">
+    <Attribute dwd:design-time-name="06366f12-f1b5-4f79-bee0-5f63698b93c3">
       <ID>Nombre Ciudad</ID>
       <Name>Nombre Ciudad</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f54cf2b3-b6d7-44a8-837c-31bc0662a474">
+        <KeyColumn dwd:design-time-name="67494a71-1c47-40d8-8e9b-3355631f25cd">
           <DataType>WChar</DataType>
           <DataSize>90</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a92b56b6-65ec-424e-b05f-28a21cd8668a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c23e2b25-c7ce-4312-a4f0-e2257b7e060a">
             <TableID>dbo_ciudad</TableID>
             <ColumnID>nombre_ciudad</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="3fe9b9d3-bab4-458c-a725-a8e3d26885cd">
+    <Attribute dwd:design-time-name="fef0b093-d54c-4d5e-bf1b-8504bca6f377">
       <ID>Nombre Provincia</ID>
       <Name>Nombre Provincia</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="09df0131-4812-4539-b9a8-dccb694af6d6">
+        <KeyColumn dwd:design-time-name="25f93cf9-33fe-40d8-a3e6-23edc500d634">
           <DataType>WChar</DataType>
           <DataSize>90</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="80899f50-e67d-4877-b04d-8a82feadb55a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f237cb1d-5c88-44ba-b381-54bf11480a58">
             <TableID>dbo_provincia</TableID>
             <ColumnID>nombre_provincia</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="118fecb2-7212-42ea-a5b6-b212dea430b4">
+    <Attribute dwd:design-time-name="8c8139fd-b9f1-4eb2-a8de-eaacc38f730a">
       <ID>Nombre Dpto</ID>
       <Name>Nombre Dpto</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="67a22ae8-408f-44d2-9d30-8e8c6b11620f">
+        <KeyColumn dwd:design-time-name="8375d151-8f2c-4aed-817d-cd4598d6e5e6">
           <DataType>WChar</DataType>
           <DataSize>90</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="01eb1a57-a6fc-471a-90c8-a9250fda7cf1">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0cd05520-23e6-4582-afe4-9c99a0e97852">
             <TableID>dbo_dpto</TableID>
             <ColumnID>nombre_dpto</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="7a45643e-215c-4e61-80b0-132cf561b67c">
-      <ID>Hierarchy</ID>
-      <Name>Hierarchy</Name>
+    <Hierarchy dwd:design-time-name="2c19aa0f-6138-460f-a19d-8f42eee69e4f">
+      <ID>Jerarquía</ID>
+      <Name>Jerarquía</Name>
       <Levels>
-        <Level dwd:design-time-name="2bf362a5-fbdb-4416-9396-b6e63a76734c">
+        <Level dwd:design-time-name="b83e55a6-5530-45e6-8f66-8929b3e3808c">
           <ID>Nombre Dpto</ID>
           <Name>Nombre Dpto</Name>
           <SourceAttributeID>Nombre Dpto</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="8623220f-d30c-403e-901e-d0046483159a">
+        <Level dwd:design-time-name="3a4b7290-0eca-4556-a39e-f6f3aace51c3">
           <ID>Nombre Provincia</ID>
           <Name>Nombre Provincia</Name>
           <SourceAttributeID>Nombre Provincia</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="68bc4212-f05f-48d2-b292-e7abb25f3938">
+        <Level dwd:design-time-name="842b2f6f-db93-4b42-a317-6f8cc2017178">
           <ID>Nombre Ciudad</ID>
           <Name>Nombre Ciudad</Name>
           <SourceAttributeID>Nombre Ciudad</SourceAttributeID>

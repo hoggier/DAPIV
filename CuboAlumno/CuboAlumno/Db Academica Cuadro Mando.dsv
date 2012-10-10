@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1427417a-43ba-4d89-bd7d-72caacde65d9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="39502a82-c173-485a-abc3-0b2a33257418" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Db Academica Cuadro Mando</ID>
   <Name>Db Academica Cuadro Mando</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -28,7 +28,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="10" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7555" scrolltop="-3055" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="21193" y="15425" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4190" scrolltop="-5281" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="21193" y="15425" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                   </font>
@@ -39,40 +39,7 @@
                 <layoutmanager>
                   <ddsxmlobj />
                 </layoutmanager>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="sexo" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobjectstreaminitwrapper binary="00080000b80b000057070000" />
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dbo_sexo" vartype="8" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <shape groupshapeid="0" groupnode="0" />
-                </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="provincia" left="-1568" top="10827" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3413" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobjectstreaminitwrapper binary="00080000550d0000fe080000" />
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dbo_provincia" vartype="8" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <shape groupshapeid="0" groupnode="0" />
-                </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="dpto" left="5833" top="6090" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobjectstreaminitwrapper binary="00080000b80b000057070000" />
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dbo_dpto" vartype="8" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <shape groupshapeid="0" groupnode="0" />
-                </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="ciudad" left="-4545" top="5607" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3122" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="ciudad" left="5833" top="5879" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3122" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="00080000320c0000fe080000" />
                   </control>
@@ -83,27 +50,40 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="1545" top="6630" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="4588" height="5648" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="dpto" left="226" top="10581" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
-                    <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                    </ddsxmlobj>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000b80b000057070000" />
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[FK__provincia__iddpt__0519C6AF]" vartype="8" />
-                      <property name="Virtual" value="0" vartype="11" />
-                      <property name="VisibleAP" value="0" vartype="3" />
+                      <property name="LogicalObject" value="dbo_dpto" vartype="8" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="12" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="5833" y="7029" />
-                    <point x="4633" y="7029" />
-                    <point x="4633" y="11978" />
-                    <point x="1845" y="11978" />
-                  </connector>
+                  <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="-2184" top="7609" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="1622" height="3718" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="provincia" left="20" top="5879" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3413" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000550d0000fe080000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_provincia" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DW_sexo" left="20" top="0" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000b80b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DW_sexo" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="3133" top="6631" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -116,25 +96,52 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="0" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="-962" y="10827" />
-                    <point x="-962" y="9368" />
-                    <point x="-1884" y="9368" />
-                    <point x="-1884" y="7909" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="13" destattachpoint="12" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="3433" y="7030" />
+                    <point x="5833" y="7030" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="fact_alumnos" left="-73" top="2550" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1327" top="7881" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK__provincia__iddpt__0519C6AF]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="1726" y="10581" />
+                    <point x="1726" y="8181" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="fact_alumno" left="1602" top="2815" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000a50a0000" />
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
-                      <property name="LogicalObject" value="fact_alumnos" vartype="8" />
+                      <property name="LogicalObject" value="se," vartype="8" />
                     </ddsxmlobj>
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="-1723" top="4712" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="1950" height="1896" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DW_etapas_vida" left="7002" top="196" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="3043" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000e30b0000fe080000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DW_etapas_vida" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1671" top="1380" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="1735" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -142,19 +149,19 @@
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[fact_alumnos-ciudad]" vartype="8" />
+                      <property name="LogicalObject" value="dataSet.Relations[fact_alumno-DW_sexo]" vartype="8" />
                       <property name="Virtual" value="0" vartype="11" />
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="7" sourceattachpoint="11" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="-1423" y="6208" />
-                    <point x="-748" y="6208" />
-                    <point x="-748" y="5012" />
-                    <point x="-73" y="5012" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="7" sourceattachpoint="7" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="2070" y="1879" />
+                    <point x="2070" y="2347" />
+                    <point x="2002" y="2347" />
+                    <point x="2002" y="2815" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="21" top="1380" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="1470" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="4302" top="4977" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="1831" height="1903" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -162,24 +169,44 @@
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[fact_alumnos-sexo]" vartype="8" />
+                      <property name="LogicalObject" value="dataSet.Relations[fact_alumno-ciudad]" vartype="8" />
                       <property name="Virtual" value="0" vartype="11" />
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="7" sourceattachpoint="1" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="420" y="1879" />
-                    <point x="420" y="2214" />
-                    <point x="327" y="2214" />
-                    <point x="327" y="2550" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="7" sourceattachpoint="10" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="5833" y="6480" />
+                    <point x="5218" y="6480" />
+                    <point x="5218" y="5277" />
+                    <point x="4602" y="5277" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="4302" top="1498" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[fact_alumno-DW_etapas_vida]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="7" sourceattachpoint="14" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7002" y="1897" />
+                    <point x="5802" y="1897" />
+                    <point x="5802" y="3077" />
+                    <point x="4602" y="3077" />
                   </connector>
                 </ddscontrol>
               </dds>
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>-7555</DiagramViewPortLeft>
-            <DiagramViewPortTop>-3055</DiagramViewPortTop>
+            <DiagramViewPortLeft>-4190</DiagramViewPortLeft>
+            <DiagramViewPortTop>-5281</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
             <DiagramZoom>100</DiagramZoom>
@@ -191,49 +218,64 @@
   <DataSourceID>Db Academica Cuadro Mando</DataSourceID>
   <Schema>
     <xs:schema id="Db_x0020_Academica_x0020_Cuadro_x0020_Mando" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
-      <xs:element name="Db_x0020_Academica_x0020_Cuadro_x0020_Mando" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="986bc678-3f7f-4dbc-b9c7-3caf1f15c711">
+      <xs:element name="Db_x0020_Academica_x0020_Cuadro_x0020_Mando" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="156f7404-4ebd-4225-af85-4d3fade39858">
         <xs:complexType>
           <xs:choice minOccurs="0" maxOccurs="unbounded">
-            <xs:element name="dbo_sexo" msprop:FriendlyName="sexo" msprop:DbSchemaName="dbo" msprop:DbTableName="sexo" msprop:design-time-name="4ad7cba5-8a45-49c4-bd6b-0160b1aad53e" msprop:TableType="Table">
+            <xs:element name="dbo_ciudad" msprop:FriendlyName="ciudad" msprop:DbSchemaName="dbo" msprop:DbTableName="ciudad" msprop:design-time-name="0c6a35bf-db96-4a39-8a27-50b12ad6f34f" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="idsexo" msprop:FriendlyName="idsexo" msprop:DbColumnName="idsexo" msprop:design-time-name="baf7b314-3fca-4ad4-b41a-d8e38a1aa422">
+                  <xs:element name="idciudad" msprop:FriendlyName="idciudad" msprop:DbColumnName="idciudad" msprop:design-time-name="7dac2523-1bdb-4718-af2d-24e003c51cbd" type="xs:long" />
+                  <xs:element name="nombre_ciudad" msprop:FriendlyName="nombre_ciudad" msprop:DbColumnName="nombre_ciudad" msprop:design-time-name="a05ad050-3d3d-411f-b603-2ed5a1be3897">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="90" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="idprovincia" msprop:FriendlyName="idprovincia" msprop:DbColumnName="idprovincia" msprop:design-time-name="52e6a839-87e3-49f6-bbf9-45a5158f68c8" type="xs:long" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dpto" msprop:FriendlyName="dpto" msprop:DbSchemaName="dbo" msprop:DbTableName="dpto" msprop:design-time-name="9e31caef-f32f-434a-b900-8c3546b8f5e2" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="iddpto" msprop:FriendlyName="iddpto" msprop:DbColumnName="iddpto" msprop:design-time-name="8941a7e3-8dc3-489c-a545-b680ab231fa0" type="xs:long" />
+                  <xs:element name="nombre_dpto" msprop:FriendlyName="nombre_dpto" msprop:DbColumnName="nombre_dpto" msprop:design-time-name="64489169-be5b-4372-b5a9-987dfb6d0eae">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="90" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_provincia" msprop:FriendlyName="provincia" msprop:DbSchemaName="dbo" msprop:DbTableName="provincia" msprop:design-time-name="aa318ceb-2ffa-4b4c-8d2b-932323f109e5" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="idprovincia" msprop:FriendlyName="idprovincia" msprop:DbColumnName="idprovincia" msprop:design-time-name="66fc2a3e-bd32-4c50-82f4-4ef50930eb06" type="xs:long" />
+                  <xs:element name="nombre_provincia" msprop:FriendlyName="nombre_provincia" msprop:DbColumnName="nombre_provincia" msprop:design-time-name="eaabaa96-9702-4edf-8abd-dbc94e5948c6">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="90" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="iddpto" msprop:FriendlyName="iddpto" msprop:DbColumnName="iddpto" msprop:design-time-name="1ff88e7c-c163-431b-9c1d-9e6bada08523" type="xs:long" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DW_sexo" msprop:FriendlyName="DW_sexo" msprop:DbSchemaName="dbo" msprop:DbTableName="DW_sexo" msprop:design-time-name="3cb574ea-33e5-46c5-97e2-9f05c9aa74cd" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="idsexo" msprop:FriendlyName="idsexo" msprop:DbColumnName="idsexo" msprop:design-time-name="4c2d8ba3-d7de-4f6d-b58c-a964d35a00af">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="1" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="nombre_sexo" msprop:FriendlyName="nombre_sexo" msprop:DbColumnName="nombre_sexo" msprop:design-time-name="201f6298-f92f-447b-9e31-317056d09d9c">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="10" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                </xs:sequence>
-              </xs:complexType>
-            </xs:element>
-            <xs:element name="dbo_provincia" msprop:FriendlyName="provincia" msprop:DbSchemaName="dbo" msprop:DbTableName="provincia" msprop:design-time-name="8f94d3a9-7117-47a2-a587-1c29da4e09dc" msprop:TableType="Table">
-              <xs:complexType>
-                <xs:sequence>
-                  <xs:element name="idprovincia" msprop:FriendlyName="idprovincia" msprop:DbColumnName="idprovincia" msprop:design-time-name="3203e259-5a61-4931-bf2c-ba0279581bb0" type="xs:long" />
-                  <xs:element name="nombre_provincia" msprop:FriendlyName="nombre_provincia" msprop:DbColumnName="nombre_provincia" msprop:design-time-name="db8a3733-34db-4161-9989-6e33cdf9307f">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="90" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="iddpto" msprop:FriendlyName="iddpto" msprop:DbColumnName="iddpto" msprop:design-time-name="70b8b48c-07b1-4e92-9a6c-20b3db9d449e" type="xs:long" />
-                </xs:sequence>
-              </xs:complexType>
-            </xs:element>
-            <xs:element name="dbo_dpto" msprop:FriendlyName="dpto" msprop:DbSchemaName="dbo" msprop:DbTableName="dpto" msprop:design-time-name="9d3decd6-be88-44f1-b233-75fd222a034f" msprop:TableType="Table">
-              <xs:complexType>
-                <xs:sequence>
-                  <xs:element name="iddpto" msprop:FriendlyName="iddpto" msprop:DbColumnName="iddpto" msprop:design-time-name="6e5fcca7-0032-4b6d-ac2e-c3b45bb4f673" type="xs:long" />
-                  <xs:element name="nombre_dpto" msprop:FriendlyName="nombre_dpto" msprop:DbColumnName="nombre_dpto" msprop:design-time-name="5f8c9ebc-84aa-4a96-a737-abb889e373e0">
+                  <xs:element name="nombre_sexo" msprop:FriendlyName="nombre_sexo" msprop:DbColumnName="nombre_sexo" msprop:design-time-name="275c5311-3502-4ef6-9add-217f9ab60892">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="90" />
@@ -243,68 +285,79 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_ciudad" msprop:FriendlyName="ciudad" msprop:DbSchemaName="dbo" msprop:DbTableName="ciudad" msprop:design-time-name="94cfeb19-c162-4f86-9186-e0d9b3b7a8ff" msprop:TableType="Table">
+            <xs:element name="se_x002C_" msprop:QueryDefinition="SELECT     idestudiante, sexo, idciudad, CONVERT(bigint, DATEDIFF([year], fecha_nacimiento, GETDATE())) AS Edad&#xD;&#xA;FROM         dbo.estudiante" msprop:DbTableName="fact_alumno" msprop:QueryBuilder="SpecificQueryBuilder" msprop:IsLogical="True" msprop:FriendlyName="fact_alumno" msprop:design-time-name="bea6dc52-fe07-44c5-a2a1-4117f5b84114" msprop:TableType="View" msprop:Description="">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="idciudad" msprop:FriendlyName="idciudad" msprop:DbColumnName="idciudad" msprop:design-time-name="9008f6a2-ff1b-4933-a784-9b963a99fa08" type="xs:long" />
-                  <xs:element name="nombre_ciudad" msprop:FriendlyName="nombre_ciudad" msprop:DbColumnName="nombre_ciudad" msprop:design-time-name="81a89bdd-b342-46de-a132-2e01d381aa59">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="90" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="idprovincia" msprop:FriendlyName="idprovincia" msprop:DbColumnName="idprovincia" msprop:design-time-name="67ddb346-ec5e-4bfd-a75b-be093b410dbb" type="xs:long" />
-                </xs:sequence>
-              </xs:complexType>
-            </xs:element>
-            <xs:element name="fact_alumnos" msprop:QueryDefinition="SELECT     idestudiante, sexo, idciudad, CONVERT(bigint, DATEDIFF([year], fecha_nacimiento, GETDATE())) AS edad&#xD;&#xA;FROM         dbo.estudiante" msprop:DbTableName="fact_alumnos" msprop:QueryBuilder="SpecificQueryBuilder" msprop:IsLogical="True" msprop:FriendlyName="fact_alumnos" msprop:design-time-name="178f7566-6bee-4646-8a82-59e5afe3057d" msprop:TableType="View" msprop:Description="">
-              <xs:complexType>
-                <xs:sequence>
-                  <xs:element name="idestudiante" msdata:ReadOnly="true" msprop:FriendlyName="idestudiante" msprop:DbColumnName="idestudiante" msprop:design-time-name="90302cdd-5d69-4815-94a1-11f5673a93d0" type="xs:long" minOccurs="0" />
-                  <xs:element name="sexo" msprop:FriendlyName="sexo" msprop:DbColumnName="sexo" msprop:design-time-name="546f3ac9-5823-454b-b3f3-bac98a2d7ce5" minOccurs="0">
+                  <xs:element name="idestudiante" msprop:FriendlyName="idestudiante" msprop:DbColumnName="idestudiante" msprop:design-time-name="adb8e58b-3265-4152-9c93-1055270b4fca" type="xs:long" minOccurs="0" />
+                  <xs:element name="sexo" msprop:FriendlyName="sexo" msprop:DbColumnName="sexo" msprop:design-time-name="8956c3af-dac1-40e6-af66-79eaf5411bdc" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="1" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="idciudad" msprop:FriendlyName="idciudad" msprop:DbColumnName="idciudad" msprop:design-time-name="e22beb8b-9aa2-4dcb-b08b-9c9406ee73c3" type="xs:long" minOccurs="0" />
-                  <xs:element name="edad" msdata:ReadOnly="true" msprop:FriendlyName="edad" msprop:DbColumnName="edad" msprop:design-time-name="2a219ee1-7764-4225-aef2-89dcd18622d1" type="xs:long" minOccurs="0" />
+                  <xs:element name="idciudad" msprop:FriendlyName="idciudad" msprop:DbColumnName="idciudad" msprop:design-time-name="91c2c982-1f5d-4632-9ddb-56d42fc31b8b" type="xs:long" minOccurs="0" />
+                  <xs:element name="Edad" msdata:ReadOnly="true" msprop:FriendlyName="Edad" msprop:DbColumnName="Edad" msprop:design-time-name="0f5748e9-49fd-43f7-bb0c-66a95a6121c4" type="xs:long" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DW_etapas_vida" msprop:FriendlyName="DW_etapas_vida" msprop:DbSchemaName="dbo" msprop:DbTableName="DW_etapas_vida" msprop:design-time-name="422b413a-4bc2-4220-a2af-3631515a04c6" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="idetapas_vida" msprop:FriendlyName="idetapas_vida" msprop:DbColumnName="idetapas_vida" msprop:design-time-name="5fc9676a-fb0e-456b-b0c0-68306bbbb640" type="xs:long" />
+                  <xs:element name="nombre_etapa" msprop:FriendlyName="nombre_etapa" msprop:DbColumnName="nombre_etapa" msprop:design-time-name="f7672987-9c87-4a77-a159-226ace356995">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="90" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="descripcion" msprop:FriendlyName="descripcion" msprop:DbColumnName="descripcion" msprop:design-time-name="9be1a4af-0074-4c59-9b11-590c386bdc78">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="90" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
           </xs:choice>
         </xs:complexType>
         <xs:unique name="Constraint1" msdata:PrimaryKey="true">
-          <xs:selector xpath=".//dbo_sexo" />
-          <xs:field xpath="idsexo" />
-        </xs:unique>
-        <xs:unique name="dbo_provincia_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
-          <xs:selector xpath=".//dbo_provincia" />
-          <xs:field xpath="idprovincia" />
+          <xs:selector xpath=".//dbo_ciudad" />
+          <xs:field xpath="idciudad" />
         </xs:unique>
         <xs:unique name="dbo_dpto_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
           <xs:selector xpath=".//dbo_dpto" />
           <xs:field xpath="iddpto" />
         </xs:unique>
-        <xs:unique name="dbo_ciudad_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
-          <xs:selector xpath=".//dbo_ciudad" />
-          <xs:field xpath="idciudad" />
-        </xs:unique>
-        <xs:keyref name="FK__ciudad__idprovin__09DE7BCC" refer="dbo_provincia_Constraint1">
-          <xs:selector xpath=".//dbo_ciudad" />
+        <xs:unique name="dbo_provincia_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_provincia" />
           <xs:field xpath="idprovincia" />
-        </xs:keyref>
+        </xs:unique>
+        <xs:unique name="dbo_DW_sexo_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DW_sexo" />
+          <xs:field xpath="idsexo" />
+        </xs:unique>
+        <xs:unique name="dbo_DW_etapas_vida_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DW_etapas_vida" />
+          <xs:field xpath="idetapas_vida" />
+        </xs:unique>
         <xs:keyref name="FK__provincia__iddpt__0519C6AF" refer="dbo_dpto_Constraint1">
           <xs:selector xpath=".//dbo_provincia" />
           <xs:field xpath="iddpto" />
         </xs:keyref>
+        <xs:keyref name="FK__ciudad__idprovin__09DE7BCC" refer="dbo_provincia_Constraint1">
+          <xs:selector xpath=".//dbo_ciudad" />
+          <xs:field xpath="idprovincia" />
+        </xs:keyref>
       </xs:element>
       <xs:annotation>
         <xs:appinfo>
-          <msdata:Relationship name="fact_alumnos-ciudad" msdata:parent="dbo_ciudad" msdata:child="fact_alumnos" msdata:parentkey="idciudad" msdata:childkey="idciudad" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="fact_alumnos-sexo" msdata:parent="dbo_sexo" msdata:child="fact_alumnos" msdata:parentkey="idsexo" msdata:childkey="sexo" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="fact_alumno-DW_sexo" msdata:parent="dbo_DW_sexo" msdata:child="se_x002C_" msdata:parentkey="idsexo" msdata:childkey="sexo" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="fact_alumno-ciudad" msdata:parent="dbo_ciudad" msdata:child="se_x002C_" msdata:parentkey="idciudad" msdata:childkey="idciudad" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="fact_alumno-DW_etapas_vida" msdata:parent="dbo_DW_etapas_vida" msdata:child="se_x002C_" msdata:parentkey="idetapas_vida" msdata:childkey="Edad" msprop:Description="" msprop:IsLogical="True" />
         </xs:appinfo>
       </xs:annotation>
     </xs:schema>

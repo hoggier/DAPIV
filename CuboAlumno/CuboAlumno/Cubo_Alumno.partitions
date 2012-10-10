@@ -1,19 +1,19 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4abc9b8c-4dab-41a3-b19f-2be80b64ba82" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="36fe8de9-11e2-4f95-9680-40db4d5347b7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Cubo_Alumno</ID>
   <MeasureGroups>
     <MeasureGroup>
-      <ID>Fact Alumnos</ID>
+      <ID>Fact Alumno</ID>
       <Partitions>
-        <Partition dwd:design-time-name="25fe9743-f3c2-4691-87df-121175f6ce63">
-          <ID>Fact Alumnos</ID>
-          <Name>Fact Alumnos</Name>
+        <Partition dwd:design-time-name="c5af092a-5338-44bf-9a20-71869cb94cd2">
+          <ID>Fact Alumno</ID>
+          <Name>Fact Alumno</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3c8aa96f-8b51-4c76-b3d1-df70e72d73c6">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8fa9ba70-49c3-4ee4-954a-9e3f83153fdc">
             <DataSourceViewID>Db Academica Cuadro Mando</DataSourceViewID>
-            <TableID>fact_alumnos</TableID>
+            <TableID>se_x002C_</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>

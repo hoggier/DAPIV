@@ -1,21 +1,25 @@
-﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
   <Database>
     <DataSources>
       <DataSource>
         <ID>Db Academica Cuadro Mando</ID>
         <ConnectionString>Provider=SQLNCLI10.1;Data Source=dbs100;Integrated Security=SSPI;Initial Catalog=dbAcademicaCuadroMando</ConnectionString>
         <ImpersonationInfo>
-          <ImpersonationMode>ImpersonateServiceAccount</ImpersonationMode>
-          <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+          <ImpersonationMode>ImpersonateAccount</ImpersonationMode>
+          <Account>administrador</Account>
+          <ImpersonationInfoSecurity>PasswordRemoved</ImpersonationInfoSecurity>
         </ImpersonationInfo>
       </DataSource>
     </DataSources>
     <Dimensions>
       <Dimension>
+        <ID>DW Sexo</ID>
+      </Dimension>
+      <Dimension>
         <ID>Ciudad</ID>
       </Dimension>
       <Dimension>
-        <ID>Sexo</ID>
+        <ID>DW Etapas Vida</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
@@ -23,10 +27,10 @@
         <ID>Cubo_Alumno</ID>
         <MeasureGroups>
           <MeasureGroup>
-            <ID>Fact Alumnos</ID>
+            <ID>Fact Alumno</ID>
             <Partitions>
               <Partition>
-                <ID>Fact Alumnos</ID>
+                <ID>Fact Alumno</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

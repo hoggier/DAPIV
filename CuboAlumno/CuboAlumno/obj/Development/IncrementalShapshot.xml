@@ -1,4 +1,4 @@
-﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
   <Target>
     <Database>CuboAlumno</Database>
     <Server>localhost</Server>
@@ -19,35 +19,42 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>gLpvHOmDNfl0GIgYEVj7FQ==06/10/2012 07:43:28 p.m.06/10/2012 07:43:28 p.m.</TimeStamp>
+        <TimeStamp>BNJaIFvUrb3YOgay58t7Og==09/10/2012 22:35:1709/10/2012 22:21:03</TimeStamp>
         <ID>
           <String>Db Academica Cuadro Mando</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>NxprW2ZB5SXMhQoYZCtoRA==06/10/2012 07:49:45 p.m.06/10/2012 07:44:29 p.m.</TimeStamp>
+        <TimeStamp>Y3lvZ+1SYB5OLLRoo3s/eA==09/10/2012 22:27:0309/10/2012 22:22:02</TimeStamp>
         <ID>
           <String>Db Academica Cuadro Mando</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>RQ5IM9PsnpaxGxfllipXKw==06/10/2012 07:51:03 p.m.06/10/2012 07:50:36 p.m.</TimeStamp>
+        <TimeStamp>sfdfGJ3IrZj3GvT9wMIoIg==09/10/2012 22:29:4709/10/2012 22:27:44</TimeStamp>
+        <ID>
+          <String>DW Sexo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nximJCW+EY7yQQZf98ej8Q==09/10/2012 22:29:2909/10/2012 22:27:44</TimeStamp>
         <ID>
           <String>Ciudad</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>q15tcnvk8SevbTlJUzimnw==06/10/2012 07:51:26 p.m.06/10/2012 07:50:36 p.m.</TimeStamp>
+        <TimeStamp>RBt1RsVRubS6/brV6Wv85g==09/10/2012 22:29:5909/10/2012 22:27:44</TimeStamp>
         <ID>
-          <String>Sexo</String>
+          <String>DW Etapas Vida</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>QtZrZsaOSiju/IC2FD3H4w==06/10/2012 07:51:26 p.m.06/10/2012 07:50:36 p.m.cY+knCZoqqpxMRX1UcG70g==06/10/2012 07:50:37 p.m.06/10/2012 07:50:36 p.m.</TimeStamp>
+        <TimeStamp>KFsjSvUxh+jgU7YRUg94dg==09/10/2012 22:49:1709/10/2012 22:27:44IvpCjshb/YpUODixVjpiiA==09/10/2012 22:27:4409/10/2012 22:27:44</TimeStamp>
         <ID>
           <String>Cubo_Alumno</String>
         </ID>
@@ -55,7 +62,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>dM0SGLFu6kRJtMm3Yj7tQw==04/10/2012 03:19:09 p.m.04/10/2012 03:19:08 p.m.</TimeStamp>
+      <TimeStamp>dM0SGLFu6kRJtMm3Yj7tQw==04/10/2012 15:19:0907/10/2012 17:44:36</TimeStamp>
       <ID>
         <String>CuboAlumno</String>
       </ID>
@@ -64,5 +71,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2012-10-06T23:51:48Z</LastDeployed>
+  <LastDeployed>2012-10-10T23:45:18.323333Z</LastDeployed>
 </DeploymentSnapshot>
