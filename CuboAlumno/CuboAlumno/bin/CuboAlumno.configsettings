@@ -21,11 +21,41 @@
       <Dimension>
         <ID>DW Etapas Vida</ID>
       </Dimension>
+      <Dimension>
+        <ID>Fact Alumno</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Modulo</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Carrera</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
         <ID>Cubo_Alumno</ID>
         <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Alumno</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Alumno</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Cubo_Inscripcion</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Inscripcion</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Inscripcion</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
           <MeasureGroup>
             <ID>Fact Alumno</ID>
             <Partitions>

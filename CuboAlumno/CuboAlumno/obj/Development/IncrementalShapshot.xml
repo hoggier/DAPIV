@@ -32,6 +32,13 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>wPHBSA1BfOuAJVlsbtrVKg==10/10/2012 20:12:2410/10/2012 19:56:26</TimeStamp>
+        <ID>
+          <String>VistadeInscripciones</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
         <TimeStamp>sfdfGJ3IrZj3GvT9wMIoIg==09/10/2012 22:29:4709/10/2012 22:27:44</TimeStamp>
         <ID>
@@ -53,10 +60,38 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>440ZG1woo+AkLcfnvAvs8g==10/10/2012 20:13:1910/10/2012 20:03:40</TimeStamp>
+        <ID>
+          <String>Fact Alumno</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5n/yFmLq39Bx/WLkDxw1eA==10/10/2012 20:15:0710/10/2012 20:03:40</TimeStamp>
+        <ID>
+          <String>Modulo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OMrIxvGWhuKXyTjFa5EWyQ==10/10/2012 20:15:3910/10/2012 20:03:40</TimeStamp>
+        <ID>
+          <String>Carrera</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
         <TimeStamp>KFsjSvUxh+jgU7YRUg94dg==09/10/2012 22:49:1709/10/2012 22:27:44IvpCjshb/YpUODixVjpiiA==09/10/2012 22:27:4409/10/2012 22:27:44</TimeStamp>
         <ID>
           <String>Cubo_Alumno</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>a7acHhSN3BdjL45BbaRcFw==10/10/2012 20:17:4010/10/2012 20:10:34ClEX6mS7tMmavbdLHhGeQA==10/10/2012 20:10:3410/10/2012 20:10:34</TimeStamp>
+        <ID>
+          <String>Cubo_Inscripcion</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
@@ -71,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2012-10-10T23:45:18.323333Z</LastDeployed>
+  <LastDeployed>2012-10-11T00:18:47.43Z</LastDeployed>
 </DeploymentSnapshot>

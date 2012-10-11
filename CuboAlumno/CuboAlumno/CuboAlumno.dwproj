@@ -17,6 +17,16 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Cubo_Inscripcion.cube</Name>
+      <FullPath>Cubo_Inscripcion.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cubo_Inscripcion.partitions</Name>
+          <FullPath>Cubo_Inscripcion.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -31,6 +41,18 @@
       <Name>DW Etapas Vida.dim</Name>
       <FullPath>DW Etapas Vida.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Fact Alumno.dim</Name>
+      <FullPath>Fact Alumno.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Modulo.dim</Name>
+      <FullPath>Modulo.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Carrera.dim</Name>
+      <FullPath>Carrera.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
@@ -42,6 +64,10 @@
     <ProjectItem>
       <Name>Db Academica Cuadro Mando.dsv</Name>
       <FullPath>Db Academica Cuadro Mando.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>VistadeInscripciones.dsv</Name>
+      <FullPath>VistadeInscripciones.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>

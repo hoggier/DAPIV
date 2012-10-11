@@ -1,23 +1,44 @@
 ﻿<Infos>
-  <Item name="Cubo_Alumno.partitions">
-    <Time>634854184647111990</Time>
+  <Item name="Ciudad.dim">
+    <Time>634854185695531956</Time>
     <Hash length="16">
-      <b>34</b>
-      <b>250</b>
-      <b>66</b>
+      <b>159</b>
+      <b>24</b>
+      <b>166</b>
+      <b>36</b>
+      <b>37</b>
+      <b>190</b>
+      <b>17</b>
       <b>142</b>
-      <b>200</b>
+      <b>242</b>
+      <b>65</b>
+      <b>6</b>
+      <b>95</b>
+      <b>247</b>
+      <b>199</b>
+      <b>163</b>
+      <b>241</b>
+    </Hash>
+  </Item>
+  <Item name="Cubo_Alumno.cube">
+    <Time>634854197570291153</Time>
+    <Hash length="16">
+      <b>40</b>
       <b>91</b>
-      <b>253</b>
-      <b>138</b>
-      <b>84</b>
-      <b>56</b>
-      <b>56</b>
-      <b>177</b>
-      <b>86</b>
-      <b>58</b>
-      <b>98</b>
-      <b>136</b>
+      <b>35</b>
+      <b>74</b>
+      <b>245</b>
+      <b>49</b>
+      <b>135</b>
+      <b>232</b>
+      <b>224</b>
+      <b>83</b>
+      <b>182</b>
+      <b>17</b>
+      <b>82</b>
+      <b>15</b>
+      <b>120</b>
+      <b>118</b>
     </Hash>
   </Item>
   <Item name="DW Etapas Vida.dim">
@@ -62,6 +83,27 @@
       <b>34</b>
     </Hash>
   </Item>
+  <Item name="Cubo_Inscripcion.partitions">
+    <Time>634854966348532471</Time>
+    <Hash length="16">
+      <b>10</b>
+      <b>81</b>
+      <b>23</b>
+      <b>234</b>
+      <b>100</b>
+      <b>187</b>
+      <b>180</b>
+      <b>201</b>
+      <b>154</b>
+      <b>189</b>
+      <b>183</b>
+      <b>75</b>
+      <b>30</b>
+      <b>17</b>
+      <b>158</b>
+      <b>64</b>
+    </Hash>
+  </Item>
   <Item name="Db Academica Cuadro Mando.ds">
     <Time>634854189176771071</Time>
     <Hash length="16">
@@ -83,25 +125,88 @@
       <b>58</b>
     </Hash>
   </Item>
-  <Item name="Ciudad.dim">
-    <Time>634854185695531956</Time>
+  <Item name="Cubo_Inscripcion.cube">
+    <Time>634854970601965754</Time>
     <Hash length="16">
-      <b>159</b>
-      <b>24</b>
-      <b>166</b>
-      <b>36</b>
-      <b>37</b>
-      <b>190</b>
-      <b>17</b>
+      <b>107</b>
+      <b>182</b>
+      <b>156</b>
+      <b>30</b>
+      <b>20</b>
+      <b>141</b>
+      <b>220</b>
+      <b>23</b>
+      <b>99</b>
+      <b>47</b>
       <b>142</b>
-      <b>242</b>
       <b>65</b>
-      <b>6</b>
-      <b>95</b>
-      <b>247</b>
-      <b>199</b>
-      <b>163</b>
+      <b>109</b>
+      <b>164</b>
+      <b>92</b>
+      <b>23</b>
+    </Hash>
+  </Item>
+  <Item name="Cubo_Alumno.partitions">
+    <Time>634854184647111990</Time>
+    <Hash length="16">
+      <b>34</b>
+      <b>250</b>
+      <b>66</b>
+      <b>142</b>
+      <b>200</b>
+      <b>91</b>
+      <b>253</b>
+      <b>138</b>
+      <b>84</b>
+      <b>56</b>
+      <b>56</b>
+      <b>177</b>
+      <b>86</b>
+      <b>58</b>
+      <b>98</b>
+      <b>136</b>
+    </Hash>
+  </Item>
+  <Item name="VistadeInscripciones.dsv">
+    <Time>634854967444805175</Time>
+    <Hash length="16">
+      <b>192</b>
       <b>241</b>
+      <b>193</b>
+      <b>72</b>
+      <b>13</b>
+      <b>65</b>
+      <b>124</b>
+      <b>235</b>
+      <b>128</b>
+      <b>37</b>
+      <b>89</b>
+      <b>108</b>
+      <b>110</b>
+      <b>218</b>
+      <b>213</b>
+      <b>42</b>
+    </Hash>
+  </Item>
+  <Item name="Modulo.dim">
+    <Time>634854969075198428</Time>
+    <Hash length="16">
+      <b>230</b>
+      <b>127</b>
+      <b>242</b>
+      <b>22</b>
+      <b>98</b>
+      <b>234</b>
+      <b>223</b>
+      <b>208</b>
+      <b>113</b>
+      <b>253</b>
+      <b>98</b>
+      <b>228</b>
+      <b>15</b>
+      <b>28</b>
+      <b>53</b>
+      <b>120</b>
     </Hash>
   </Item>
   <Item name="CuboAlumno.database">
@@ -146,25 +251,46 @@
       <b>120</b>
     </Hash>
   </Item>
-  <Item name="Cubo_Alumno.cube">
-    <Time>634854197570291153</Time>
+  <Item name="Fact Alumno.dim">
+    <Time>634854967991476442</Time>
     <Hash length="16">
+      <b>227</b>
+      <b>141</b>
+      <b>25</b>
+      <b>27</b>
+      <b>92</b>
       <b>40</b>
-      <b>91</b>
-      <b>35</b>
-      <b>74</b>
-      <b>245</b>
-      <b>49</b>
-      <b>135</b>
-      <b>232</b>
+      <b>163</b>
       <b>224</b>
-      <b>83</b>
-      <b>182</b>
-      <b>17</b>
-      <b>82</b>
-      <b>15</b>
-      <b>120</b>
-      <b>118</b>
+      <b>36</b>
+      <b>45</b>
+      <b>199</b>
+      <b>231</b>
+      <b>188</b>
+      <b>11</b>
+      <b>236</b>
+      <b>242</b>
+    </Hash>
+  </Item>
+  <Item name="Carrera.dim">
+    <Time>634854969391046493</Time>
+    <Hash length="16">
+      <b>56</b>
+      <b>202</b>
+      <b>200</b>
+      <b>198</b>
+      <b>241</b>
+      <b>150</b>
+      <b>134</b>
+      <b>226</b>
+      <b>151</b>
+      <b>201</b>
+      <b>56</b>
+      <b>197</b>
+      <b>107</b>
+      <b>145</b>
+      <b>22</b>
+      <b>201</b>
     </Hash>
   </Item>
 </Infos>
